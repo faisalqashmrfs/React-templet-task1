@@ -22,7 +22,7 @@ function Footer() {
     return(
         <footer className='footer'>
             <div className='row1'>
-                <a href="#"><i class={logoicon}></i></a>
+                <a href="#"><i className={logoicon}></i></a>
                 <h2>{logo}</h2>
             </div>
             <div className='row2'>
@@ -32,16 +32,16 @@ function Footer() {
                 <a href="#">{GitHub}</a>
             </div>
             <div className='row3'>
-                <a href="#"><i class={GitHubicon}></i></a>
-                <a href="#"><i class={facebookicon}></i></a>
-                <a href="#"><i class={twittericon}></i></a>
-                <a href="#"><i class={youtubeicon}></i></a>
-                <a href="#"><i class={linkedinicon}></i></a>
-                <a href="#"><i class={aticon}></i></a>
-                <a href="#"><i class={rssicon}></i></a>
+                <a href="#"><i className={GitHubicon}></i></a>
+                <a href="#"><i className={facebookicon}></i></a>
+                <a href="#"><i className={twittericon}></i></a>
+                <a href="#"><i className={youtubeicon}></i></a>
+                <a href="#"><i className={linkedinicon}></i></a>
+                <a href="#"><i className={aticon}></i></a>
+                <a href="#"><i className={rssicon}></i></a>
             </div>
             <p>
-                {lastrow} <a href=""><i class={hearticon}></i></a> By
+                {lastrow} <a href=""><i className={hearticon}></i></a> By
                 <span>
                     {company}
                 </span>

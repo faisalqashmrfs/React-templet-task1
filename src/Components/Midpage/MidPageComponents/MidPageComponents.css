@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: row;
     gap: 4%;
+    transition: 1s;
 }
 .reverseCompo{
     width: 80%;
@@ -12,6 +13,7 @@
     display: flex;
     flex-direction: row-reverse;
     gap: 4%;
+    transition: 1s;
 }
 .sectionMidPage .title ,.reverseCompo .title 
 {
@@ -43,6 +45,7 @@
 .sectionMidPage .photo img ,.reverseCompo .photo img
 {
     width: 40rem;
+    transition: 1s;
     animation-name: litelmov;
     animation-duration: 2.5s;
     animation-iteration-count: infinite;
@@ -64,16 +67,55 @@
         transform: translateY(0rem);
     }
 }
-@keyframes borderanimat {
-    0%{
-            transform: translateY(0px);
+@media (max-width:1350px){
+    .sectionMidPage
+    {
+        width: 95%;
+        margin: 5rem auto;
+        gap: 1%;
     }
-    50%{
-        transform: translateY(1.3rem);
+    .reverseCompo{
+        width: 95%;
+        margin: 5rem auto;
+        gap: 1%;
     }
-    100%{
-        transform: translateY(0rem);
+    .sectionMidPage .title div h2  ,.reverseCompo .title div h2 
+    {
+        font-size: 2rem;
+    }
+    .sectionMidPage .title div p  ,.reverseCompo .title div p
+    {
+        font-size: 1.1rem;
+    }
+    .sectionMidPage .photo img ,.reverseCompo .photo img
+    {
+        width: 28rem;
     }
 }
+@media (max-width:850px){
+    .sectionMidPage
+    {
+        display: block;
+        width: 80%;
+        margin: 5rem auto;
+    }
+    .reverseCompo{
 
-
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .sectionMidPage .title ,.reverseCompo .title 
+    {
+        width: 100%;
+    }
+    .sectionMidPage .photo  ,.reverseCompo .photo 
+    {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .sectionMidPage .photo img ,.reverseCompo .photo img
+    {
+        width: 100%;
+    }
+}

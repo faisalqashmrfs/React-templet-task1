@@ -17,11 +17,11 @@
 {
     margin: .5rem;
 }
-.Box .descbox a
-{
-    text-decoration: none;
-    color: rgb(58, 181, 230);
-}
+    .Box .descbox a
+    {
+        text-decoration: none;
+        color: rgb(58, 181, 230);
+    }
 .Box .btnbox 
 {
     display: flex;
@@ -44,4 +44,46 @@
     color: rgb(58, 181, 230);
     background-color: white;
     border: 1px solid rgb(58, 181, 230); 
+}
+@media (max-width:900px){
+    .Box
+    {
+        width: 70%;
+        padding: 1rem;
+    }
+    .Box .descbox p
+    {
+        font-size: 1rem;
+    }
+    .Box .descbox a
+    {
+        font-size: 1rem;
+    }
+    .Box .btnbox button
+    {
+        font-size: 1rem;
+        padding: .5rem;
+        width: 8rem;
+    }
+}
+@media (max-width:675px){
+    .Box
+    {
+        width: 80%;
+        padding: .5rem;
+    }
+    .Box .descbox p
+    {
+        font-size: .8rem;
+    }
+    .Box .descbox a
+    {
+        font-size: .8rem;
+    }
+    .Box .btnbox button
+    {
+        font-size: .9rem;
+        padding: .5rem;
+        width: 6rem;
+    }
 }

@@ -3,10 +3,10 @@ import './NavbarStyle.css';
 function Navbar({brand , get , Logein , Icon}) {
   return (
     <>
-    <nav className='Navbar'>
-        <div className='contant'>
+    <nav className="Navbar">
+        <div className="contant">
           <div className="logo">
-              <a href="#"><i class={Icon}></i></a>
+              <a href="#"><i className={Icon}></i></a>
               <h1>{brand}</h1>
           </div>
           <div className="navitem">

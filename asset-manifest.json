@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/https//faisalqashmrfs.github.io/React-templet-task1/static/css/main.3546c34b.css",
-    "main.js": "/https//faisalqashmrfs.github.io/React-templet-task1/static/js/main.d0031472.js",
-    "static/js/787.84fac01e.chunk.js": "/https//faisalqashmrfs.github.io/React-templet-task1/static/js/787.84fac01e.chunk.js",
-    "static/media/REACT3.png": "/https//faisalqashmrfs.github.io/React-templet-task1/static/media/REACT3.83060baf215e9b67af78.png",
-    "static/media/REACT4.png": "/https//faisalqashmrfs.github.io/React-templet-task1/static/media/REACT4.7f2a1fc675a7a860fc73.png",
-    "static/media/REACT5.png": "/https//faisalqashmrfs.github.io/React-templet-task1/static/media/REACT5.b214b477cca0756f8d34.png",
-    "index.html": "/https//faisalqashmrfs.github.io/React-templet-task1/index.html",
-    "main.3546c34b.css.map": "/https//faisalqashmrfs.github.io/React-templet-task1/static/css/main.3546c34b.css.map",
-    "main.d0031472.js.map": "/https//faisalqashmrfs.github.io/React-templet-task1/static/js/main.d0031472.js.map",
-    "787.84fac01e.chunk.js.map": "/https//faisalqashmrfs.github.io/React-templet-task1/static/js/787.84fac01e.chunk.js.map"
+    "main.css": "/React-templet-task1/static/css/main.3546c34b.css",
+    "main.js": "/React-templet-task1/static/js/main.a0775d83.js",
+    "static/js/787.84fac01e.chunk.js": "/React-templet-task1/static/js/787.84fac01e.chunk.js",
+    "static/media/REACT3.png": "/React-templet-task1/static/media/REACT3.83060baf215e9b67af78.png",
+    "static/media/REACT4.png": "/React-templet-task1/static/media/REACT4.7f2a1fc675a7a860fc73.png",
+    "static/media/REACT5.png": "/React-templet-task1/static/media/REACT5.b214b477cca0756f8d34.png",
+    "index.html": "/React-templet-task1/index.html",
+    "main.3546c34b.css.map": "/React-templet-task1/static/css/main.3546c34b.css.map",
+    "main.a0775d83.js.map": "/React-templet-task1/static/js/main.a0775d83.js.map",
+    "787.84fac01e.chunk.js.map": "/React-templet-task1/static/js/787.84fac01e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3546c34b.css",
-    "static/js/main.d0031472.js"
+    "static/js/main.a0775d83.js"
   ]
 }

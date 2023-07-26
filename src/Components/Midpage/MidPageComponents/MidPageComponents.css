@@ -1,0 +1,79 @@
+.sectionMidPage
+{
+    width: 80%;
+    margin: 10rem auto;
+    display: flex;
+    flex-direction: row;
+    gap: 4%;
+}
+.reverseCompo{
+    width: 80%;
+    margin: 10rem auto;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 4%;
+}
+.sectionMidPage .title ,.reverseCompo .title 
+{
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectionMidPage .title div ,.reverseCompo .title div 
+{
+    width: 80%;
+    text-align: center;
+}
+.sectionMidPage .title div h2  ,.reverseCompo .title div h2 
+{
+    font-size: 2.5rem;
+}
+.sectionMidPage .title div p  ,.reverseCompo .title div p
+{
+    font-size: 1.5rem;
+    color: rgb(141, 149, 153);
+    font-weight: 500;
+    margin-top: 2rem;
+}
+.sectionMidPage .photo  ,.reverseCompo .photo 
+{
+    width: 48;
+}
+.sectionMidPage .photo img ,.reverseCompo .photo img
+{
+    width: 40rem;
+    animation-name: litelmov;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    cursor: pointer;
+}
+.sectionMidPage .photo img:hover ,.reverseCompo .photo img:hover
+{
+    animation-play-state: paused;
+}
+@keyframes litelmov {
+    0%{
+            transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(1.3rem);
+    }
+    100%{
+        transform: translateY(0rem);
+    }
+}
+@keyframes borderanimat {
+    0%{
+            transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(1.3rem);
+    }
+    100%{
+        transform: translateY(0rem);
+    }
+}
+
+

@@ -1,0 +1,40 @@
+.Navbar
+{
+    max-width: 100vw;
+    height: 50px;
+    background-color: white;
+}
+.Navbar .contant
+{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.Navbar .logo
+{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+}
+.Navbar .navitem ul
+{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+.Navbar .navitem ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+.Navbar .logo a
+{
+    color: rgb(58, 181, 230);
+}
+.Navbar .logo h1
+{
+    cursor: pointer;
+}
